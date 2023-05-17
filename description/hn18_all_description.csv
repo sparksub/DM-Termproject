@@ -1,0 +1,16 @@
+변수명,변수설명,내용,필요한가? (Y/N/Not Sure),type,단위,비고
+ID,개인 아이디,,Y,Nominal,-,V
+sex,성별,1. 남자 2. 여자,Y,Nominal,-,V
+age,만나이1),1~79. 1~79세 80. 80세이상 (2자리수 int),Y,Ratio,세,V
+mh_PHQ_S,(성인) PHQ-9 점수,우울증선별도구 9항목(문항3-1~9) 점수 합,Y,Interval,,V
+HE_sbp,"최종 수축기 혈압(2,3차 평균) ","(3자리수, mmHg, int)",Y,Ratio,mmHg,V
+HE_dbp,"최종 이완기 혈압(2,3차 평균)","(3자리수, mmHg, int)",Y,Ratio,mmHg,V
+HE_ht,신장,□□□.□ cm,Y,Ratio,cm,V
+HE_wt,체중,□□□.□ kg ,Y,Ratio,kg,V
+HE_BMI,체질량지수 (BMI),□□□.□ kg/m2,Y,Ratio,kg/m2,V
+GS_mea_r_1,1차 악력측정_오른손,□□.□ kg ,Y,Ratio,kg,V
+GS_mea_r_2,2차 악력측정_오른손 ,□□.□ kg ,Y,Ratio,kg,V
+GS_mea_r_3,3차 악력측정_오른손 ,□□.□ kg ,Y,Ratio,kg,V
+GS_mea_l_1,1차 악력측정_왼손,□□.□ kg ,Y,Ratio,kg,V
+GS_mea_l_2,2차 악력측정_왼손,□□.□ kg ,Y,Ratio,kg,V
+GS_mea_l_3,3차 악력측정_왼손,□□.□ kg ,Y,Ratio,kg,V
